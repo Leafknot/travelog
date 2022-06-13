@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+nav{
+    background: none;
+    height: 8rem;
+    width: 100%;
+  }
+  nav ul{
+    float: right;
+    margin-right: 2rem;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 8rem;
+    margin: 0 .5rem;
+  }
+  nav ul li a{
+    color: rgb(253, 255, 254);
+    font-size: 1.7rem;
+    padding: .7rem 1.3rem;
+    border-radius: .3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  a:hover{
+    background: rgb(6, 146, 92);
+    transition: .5s;
+  }
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: linear-gradient(rgb(31, 26, 26),rgba(0, 0, 0, 0.014)),url(gallery-img-4.jpg);
+    background-size: cover;
+}
+.about{
+    padding-top: 4rem;
+    width: 100%;
+}
+.about .container{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 5rem;
+}
+.about .container .heading h2{
+    font-weight: 600;
+    font-size: 8rem;
+    text-transform: uppercase;
+    padding: 2rem 2rem;
+}
+.about .container .article{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.24);
+    border: .5rem solid rgb(252, 250, 250);
+    border-radius: 5%;
+}
+.about .container .article p{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.dest{
+    font-size: large;
+    padding-top: 3rem;
+    text-align: center;
+    color: rgb(244, 246, 248);
+}
+.dest .image{
+    padding-top: 1.5rem; 
+}
+.heading{
+    text-align: center;
+    padding: 2.5rem 0;
+    text-transform: uppercase;
+}
+.heading span{
+    font-size: 3.5rem;
+    background-color:whitesmoke;
+    color: var(--orange);
+    border-radius: 5rem;
+    padding: 1rem .5rem;
+}
+
+@media(max-width:998px) {
+    html{
+        font-size: 65%;
+    }
+}
+
+@media(max-width:768px) {
+  html{
+      font-size: 50%;
+  }
+}
+
+@media(max-width:480px) {
+    html{
+        font-size: 35%;
+    }
+  }
+
